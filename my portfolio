@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+       
+    <header>
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+            
+              <li><a target="_blank" rel='noreferrer' href = "mailto:majumdersayan1024@gmail.com"> Contact </a> </li>
+            </ul>
+          </nav>
+
+
+
+            
+        
+        <p id="logo"><img src="pic ME.jpg" height="150" alt="Sayantan Majumder"> </p>
+        
+    
+        <h1> SAYANTAN MAJUMDER </h1>
+            <h4> Web Development Intern at Oasis Infobyte</h4>
+           
+
+        
+        <label>
+            <a href="https://drive.google.com/file/d/1LZXmTKaBLoekUpVAiMbG-IKRcAdB6qIt/view"> <input type="button" value="Download Resume"> </a>
+
+        </label>
+    </header>
+    <main>
+      <section id="Education">
+        <h1>
+            <u>
+            Education
+            </u>
+        </h1>
+        
+            <img src="data:image/png;base64,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" width="100">
+
+            <h4>
+                Completed  10th (Secondary) on 2016 with percentage - 63%  from MITRA INSTITUTION.</br>
+                
+
+
+            </h4>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnixgJ55VVD7uw-Y7DP-nn_vu0JC_Nrw9EVw&usqp=CAU" width="120">
+            <h4> Completed 12th (High Secondary) on 2019 with a percentage of 52% </h4> </br>
+
+            <img src="https://t4.ftcdn.net/jpg/05/40/80/69/360_F_540806962_2LJJXHlT5BjcJsLisnywC9miAOONYmqS.jpg" width="150">
+            <h4> Completed Diploma in Electronics & Telecommunication Engineering on 2021 with a percentageof 79.8% 1st Class With Disticntion</h4> </br>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsm51VELUS3AQ2D9V9vZq8q_IrmjvnsBHHjA&usqp=CAU" width="120">
+            <h4> Pursuing Btech in Computer Science Engineering 
+                  will be completed by july 2024 
+            </h4></br>
+            <pre>
+
+<br>
+---------------------------------------------------------------------------------------------------------------------------------------</br>
+
+               
+                <h1> <u> Skills </u>
+                    
+                         
+                </h1><ul><b>
+                    <h4> Intermidiate in HTML,CSS,Javascricpt   
+                    <h4> Intermidiate in Python,C,SQL etc.</h4>
+                    </h4>
+                </ul></b>
+                
+            
+
+                
+                
+            </pre>
+
+
+
+
+    
+      </section>
+        
+        
+        
+    </main>
+    <footer>
+         <a target="_blank" rel='noreferrer' href = "mailto:majumdersayan1024@gmail.com"><img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" width="50"> </a></br>
+          <a href="https://www.linkedin.com/feed/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25"> </a>
+        
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2{
+    text-align: end;
+}
+
+
+#logo{
+    position: absolute;
+    margin-left: auto;
+    
+}
+.container{
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;    
+}
+
+
+header {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+#logo{
+    position: relative;
+    margin-left: 1vh;
+    clip-path: circle();
+}
+    
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+ 
